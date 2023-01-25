@@ -1,7 +1,4 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
-from PIL import Image
 import time
 
 st.title("Streamlit for the very beginer")
@@ -29,14 +26,3 @@ expander2 = st.expander("Inquiry")
 expander2.write("Write down the detail of the inquiry2.")
 expander3 = st.expander("Inquiry")
 expander3.write("Write down the detail of the inquiry3.")
-
-# option = st.text_input("What is your hobby")
-# "Your hobby is ", option, " ."
-
-# condition = st.slider("How's your feeling now?", 0, 100, 50)
-# "Your condition is ", condition
-
-# if st.checkbox("Show Image"):
-#     img = Image.open(".jpg")
-#     st.image(img, caption="Immortan Joe", use_column_width = True)
-
